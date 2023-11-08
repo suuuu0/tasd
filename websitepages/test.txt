@@ -1,0 +1,1 @@
+pls create a php code with enter first name last name gmail mobile number father name and address with foarm and submit it in data base with if($_SERVER["REQUEST_METHOD"] == "POST")  named student after sumbit the foarm send a mail to student with php mailer 
