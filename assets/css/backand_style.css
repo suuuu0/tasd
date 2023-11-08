@@ -1,0 +1,275 @@
+/* login page css start */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.bg_login {
+    background: linear-gradient(243deg, rgba(109,173,74,1) 0%, rgba(42,217,115,1) 35%, rgba(130,153,148,1) 100%);
+    width: 100%;
+	height : 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_diplay  {
+    display: flex;
+    justify-content: center;
+}
+.white_bg_form {
+    background: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #fff;
+	width :50%;
+	height :100%;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #5fcf80;
+    --bs-btn-border-color: #5fcf80;
+  
+}
+
+
+
+ /* login page css and */
+ 
+ 
+  /* courses page css start */
+ 
+ 
+.courses_link {
+    float: right;
+    display: flex;
+}
+
+.courses_link a {
+    margin-right: 16px;
+    color: #ffffff;
+    transition: 0.9s ease-in-out;
+    text-decoration: none;
+}
+.courses_link a:hover {
+    border-bottom: 1px solid #5fcf80;
+    transition: 0.9s ease-in-out;
+}
+.courses_link li{
+	    list-style: none;
+}
+.background_header {
+    padding: 15px;
+    background: #5fcf80;
+}
+.side_bar {
+    background: #ffffff47;
+    width: 100%;
+    height: 100%;
+    padding: 30px 10px;
+    position: relative;
+    box-shadow: 2px 0px 0px #5fcf80;
+}
+.side_bar_link li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.side_bar_link a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.side_bar h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 16px;
+}
+.side_bar_link a:hover{
+	 color: #5fcf80;
+}
+.table_box {
+    border: 1px solid #000;
+    width: 100%;
+}
+.table_box th {
+    border: 1px solid #000;
+    padding: 10px;
+}
+.table_box td {
+    border: 1px solid #000;
+	padding: 20px 10px;
+}
+.right_form_box {
+    background: #f4f3f380;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: scroll;
+    box-shadow: 0px 0px 4px #5fcf80;
+}
+
+.coures_edit_btn {
+    background: #5fcf80;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.coures_delete_btn {
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.catrgory_section {
+    padding: 20px 0px;
+}
+.add_caures_btn a {
+    text-decoration: none;
+    border: 1px solid #5fcf80;
+    float: right;
+    padding: 10px 15px;
+    color: #5fcf80;
+    border-radius: 10px;
+	transition:0.5s ease-in-out;
+}
+
+.add_caures_btn a:hover {
+	background:#5fcf80;
+    color: #fff;
+	transition:0.5s ease-in-out;
+}
+ /* courses page css and */
+ 
+ 
+/* add courses page css start */
+
+.add_courses_img img {
+    width: 100%;
+    height: 100%;
+}
+.add_courses_name {
+    box-shadow: 0px 0px 5px #5fcf80;
+    padding: 20px;
+	height :100%;
+    padding: 30px 50px;
+}
+.add_courses_name h3{
+	margin-bottom:20px;
+}
+.add_courses_padding{
+	padding:70px 50px;
+
+}
+.add_courses_form {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #fff;
+    width: 100%;
+}
+
+.padding_all {
+    padding: 20px;
+}
+
+span.pay_class {
+    background: #5fcf80;
+    color: #fff;
+    padding: 10px 15px;
+    float: right;
+	font-size: 16px;
+}
+.concat-page-btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #5fcf80;
+    border: 1px solid #5fcf80;
+    color: #fff;
+    font-size: 18px;
+}
+
+.arrow_icon_btn {
+    border-radius: 4px;
+    background-color: #5fcf80;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    padding: 0px 8px;
+    /* transition: all 0.5s; */
+    cursor: pointer;
+    /* margin: 36px; */
+    /* box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7); */
+}
+
+.arrow_icon_btn{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.arrow_icon_btn:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: -7px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.arrow_icon_btn:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.arrow_icon_btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+/* add courses page css and */
+
+
+/* add student page css and */
+.student_right_btn {
+    float: right;
+}
+
+.edit_btn_profile {
+    float: right;
+    border: 1px solid #5fcf80;
+    font-size: 16px;
+    padding: 10px 25px;
+	color:#5fcf80;
+    border-radius: 5px;
+	transition:.5s ease-in-out;
+}
+.edit_btn_profile:hover {
+    background-color: #5fcf80;
+    color: #fff;
+	transition:.5s ease-in-out;
+}
+
+/* add student page css and */
+
+
+
+/* trainer page css start */
+
+.right_btn
+{
+	float : right;
+}
+.student_logout_btn {
+    margin-left: 20px;
+}
+
+/*  student page css and */
